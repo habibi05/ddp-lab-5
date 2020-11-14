@@ -30,14 +30,12 @@ def hitung(bil1, bil2, operator='+'):
   # Tulis kode fungsi hitung() di bawah ini
   # Hapus pass jika implementasi sudah dibuat
 
-  if operator == "+":
-    ret = bil1 + bil2
-  elif operator == "-":
+  if operator == "-":
     ret = bil1 - bil2
   elif operator == "*":
     ret = bil1 * bil2
   else:
-    ret = "operator salah"
+    ret = bil1 + bil2
   
   return print(ret)
 
